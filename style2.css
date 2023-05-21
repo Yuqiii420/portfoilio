@@ -1,0 +1,309 @@
+.kep{
+
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    
+}
+.container1 {
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+  }
+
+  * { color:#fff; text-decoration: none;}
+  .typewrite{
+margin-top: -20%;
+font-size: 70px;
+}
+.grid{
+font-size: 20px;
+margin-top: 40%;
+
+
+}
+#div8{
+margin-top: -5%;
+
+}
+#Insta{
+width: 150px;
+height: 55px;
+border: solid #ff00ff;
+border-radius: 5px;
+margin: 5px;
+background: linear-gradient(to right, #ff9933 0%, #ff00ff 100%);
+
+
+}
+#Insta img{
+
+float: right;
+}
+#Facebook{
+    width: 150px;
+    height: 55px;
+    border: solid #0033cc;
+    border-radius: 5px;
+    margin: 5px;
+    background: linear-gradient(to bottom, #0033cc 0%, #66ccff 100%);
+}
+#Facebook img{
+
+    float: right;
+    }
+#Github{
+    width: 150px;
+    height: 55px;
+    border: solid #009900;
+    border-radius: 5px;
+    margin: 5px;
+    background: linear-gradient(to left, #009900 0%, #1c1c1c 76%);
+}
+#Github img{
+
+    float: right;
+
+}
+#kapcsolat{
+
+
+height: 35vh;
+width: 100%;
+margin: 5px;
+border-radius: 10px;
+transition: 500ms;
+
+
+}
+#kapcsolat1{
+
+
+    height: 35vh;
+    width: 50%;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 500ms;
+    }
+    #kapcsolat1 img{
+
+        border: solid 3px rgb(21, 115, 255);
+        border-radius: 0px;
+        transform: rotate(10deg); /* Equal to rotateZ(45deg) */
+    }
+ #kozep2{
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#keret{
+border: solid 1px black;
+border-radius: 5px;
+}
+#munka{
+
+color: black;
+}
+#munka:hover{
+
+color: #1c1c1c;
+}
+@media only screen and (max-width: 1104px) {
+    .grid {
+        position: fixed;
+        left: 50%;
+        top: -80%;
+        transform: translate(-50%, 20%);
+        
+    }
+  }
+  @media only screen and (max-width: 604px) {
+    .grid {
+        position: fixed;
+        left: 50%;
+        top:  50%;
+        transform: translate(-50%, 30%);
+        
+    }
+  }
+  @media only screen and (max-width: 1570px) {
+    #rs {
+      margin-top: 45%;
+        
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    #rs {
+      margin-top: 50%;
+        
+    }
+  }
+  @media only screen and (max-width: 1270px) {
+    #rs {
+      margin-top: 55%;
+        
+    }
+  } 
+  @media only screen and (max-width: 1150px) {
+    #rs {
+      margin-top: 60%;
+        
+    }
+  }          
+  @media only screen and (max-width: 1050px) {
+    #rs {
+      margin-top: 70%;
+        
+    }
+  }  
+  @media only screen and (max-width: 1150px) {
+    #border {
+      width: 155%;
+      margin-top: 10%;
+        
+    }
+  }  
+  @media only screen and (max-width: 1200px) {
+    #border {
+      width: 120%;
+        
+    }
+  }  
+  @media only screen and (max-width:991px) {
+    #border {
+      width: 160%;
+      margin-top: 35%;
+        
+    }
+  }  
+  @media only screen and (max-width: 850px) {
+    #kapcsolat {
+      margin-top: 40%;
+        
+    }
+  }
+  @media only screen and (max-width:850px) {
+    #border {
+      margin-top: 100%;
+        
+    }
+  }
+  @media only screen and (max-width:769px) {
+    #border {
+      width: 170%;
+        
+    }
+  }
+  @media only screen and (max-width:767px) {
+    #border {
+      width: 190%;
+      margin-left: -40%;
+      margin-top: 140%;
+        
+    }
+  }
+  @media only screen and (max-width:710px) {
+    #kapcsolat {
+      margin-top: 70%;
+        
+    }
+  }
+  @media only screen and (max-width:710px) {
+    #border {
+      margin-top: 230%;
+        
+    }
+  }
+  @media only screen and (max-width:575px) {
+    #border {
+      width: 100%;
+      margin-top: 110%;
+    margin-left: 50%;
+        
+    }
+  }
+  @media only screen and (max-width:571px) {
+    #kapcsolat {
+      margin-top: 10%;
+        
+    }
+  }
+  @media only screen and (max-width:515px) {
+    #border {
+      margin-top: 120%;
+        
+    }
+  }
+  @media only screen and (max-width:515px) {
+    #kapcsolat {
+      margin-top: 5%;
+        
+    }
+  }
+  @media only screen and (max-width:500px) {
+    #border {
+      margin-top: 150%;
+        
+    }
+  }
+  @media only screen and (max-width:500px) {
+    #kapcsolat {
+      margin-top: 0%;
+        
+    }
+  }
+  @media only screen and (max-width:450px) {
+    #border {
+      margin-top: 170%;
+        
+    }
+  }
+  @media only screen and (max-width:450px) {
+    #kapcsolat {
+      margin-top: 0%;
+        
+    }
+  }
+  @media only screen and (max-width:420px) {
+    #border {
+      margin-top: 200%;
+        
+    }
+  }
+  @media only screen and (max-width:420px) {
+    #kapcsolat {
+      margin-top: -10%;
+        
+    }
+  }
+  @media only screen and (max-width:385px) {
+    #border {
+      margin-top: 220%;
+        
+    }
+  }
+  @media only screen and (max-width:385px) {
+    #kapcsolat {
+      margin-top: -20%;
+        
+    }
+  }
+  @media only screen and (max-width:365px) {
+    #border {
+      margin-top: 260%;
+        
+    }
+  }
+  @media only screen and (max-width:365px) {
+    #kapcsolat {
+      margin-top: -40%;
+        
+    }
+  }
